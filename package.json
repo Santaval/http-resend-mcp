@@ -2,7 +2,6 @@
   "name": "http-resend-mcp",
   "version": "1.0.0",
   "main": "dist/stdio.js",
-  "type": "module",
   "scripts": {
     "dev": "xmcp dev",
     "build": "xmcp build",
