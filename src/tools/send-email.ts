@@ -1,14 +1,11 @@
 import { z } from "zod";
 import { type InferSchema } from "xmcp";
 import { Resend } from "resend";
-import dotenv from "dotenv";
-
-// Load environment variables from .env file
-dotenv.config();
 
 // Get API key from environment variable
 const apiKey = process.env.RESEND_API_KEY;
 
+console.error(apiKey);
 if (!apiKey) {
   console.error(
     'No API key provided. Please set RESEND_API_KEY environment variable'
