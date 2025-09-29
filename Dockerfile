@@ -17,4 +17,4 @@ RUN npm run build
 EXPOSE 3000
 
 # Default command (change to start:http for HTTP transport)
-CMD ["npm", "run", "start:stdio"]
+CMD ["npm", "run", "start:http"]
