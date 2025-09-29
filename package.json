@@ -10,15 +10,23 @@
     "start:http": "node dist/http.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["mcp", "model-context-protocol", "ai"],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai"
+  ],
   "author": "",
   "license": "ISC",
   "description": "A Model Context Protocol server built with xMCP",
   "dependencies": {
+    "dotenv": "^17.2.2",
+    "minimist": "^1.2.8",
+    "resend": "^6.1.1",
     "xmcp": "^0.3.1",
     "zod": "^3.25.76"
   },
   "devDependencies": {
+    "@types/minimist": "^1.2.5",
     "@types/node": "^24.5.2",
     "typescript": "^5.9.2"
   }
