@@ -14,7 +14,7 @@ COPY . .
 RUN npm run build
 
 # Expose HTTP port (if using HTTP transport)
-EXPOSE 3000
+EXPOSE 3001
 
 # Default command (change to start:http for HTTP transport)
 CMD ["npm", "run", "start:http"]
